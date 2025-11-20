@@ -6,7 +6,7 @@ const Navbar = () => {
         initial={{ y: -40, opacity: 0 }} 
         animate={{ y: 0, opacity: 1 }} 
         transition={{ duration: 0.6 }}
-        className='fixed top-0 w-full bg-neutral-400 z-50 flex justify-between items-center p-4'
+        className='fixed z-50 top-0 w-full bg-neutral-400 flex justify-between items-center p-4'
     >
         <h1 className='text-2xl font-bold'>Ankitha</h1>
         <ul className='flex gap-5 text-gray-300 font-semibold text-lg'>
